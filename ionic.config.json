@@ -1,0 +1,8 @@
+{
+  "name": "BerenjMarketV001",
+  "app_id": "2eb77748",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
