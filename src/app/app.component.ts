@@ -21,6 +21,7 @@ export class MyApp {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
+    
     this.pages = [
       { title: 'خانه', component: HomePage },
       { title: 'اطلاعات کاربر', component: UserInfo }

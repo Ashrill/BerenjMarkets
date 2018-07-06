@@ -1,14 +1,21 @@
+<style>
+  .buttonFav01 {
+    text-align: center;
+}
+</style>
 <ion-menu [content]="content">
+    
   <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="fav01" align="middle">
       <ion-title>منو</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content>
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
+      <button class="buttonFav01" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+          <!-- <ion-icon name="ios-menu-outline"></ion-icon> -->
+          {{p.title}}
       </button>
     </ion-list>
   </ion-content>
