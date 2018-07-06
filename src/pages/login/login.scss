@@ -1,0 +1,45 @@
+page-login {
+    .backgroundRice {
+        background-image: url('../../assets/imgs/bg01.jpg')
+      }
+    .scroll-fix {
+        position: absolute;
+        top: 20%;
+    }
+    ion-card.card {
+        box-shadow: none;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+    }
+    .list > .item-block:first-child {
+        border: medium none;
+    }
+    .item {
+        margin-bottom: 10px;
+        background: rgba($color: #EBECE5, $alpha: 0.7);
+        border: medium none;
+        
+        .text-input {
+            color: rgb(7, 7, 7);
+        }
+
+        *:-moz-placeholder {
+            color: rgb(6, 21, 31) !important;
+        }
+        *:-ms-input-placeholder {
+            color: rgb(6, 21, 31) !important;
+        }
+        *::-webkit-input-placeholder {
+            color: rgb(6, 21, 31) !important;
+            text-align: center;
+        }
+        input::-moz-placeholder {
+            color: rgb(6, 21, 31) !important;
+        }
+
+    }
+    .icon {
+        padding-right: 10px;
+    }
+    
+}
