@@ -2,14 +2,61 @@
   <ion-navbar color="fav02">
     
     <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
+      <ion-icon name="list-box"></ion-icon>
     </button>
   
-    <ion-title align="middle">خانه</ion-title>
+    <ion-title align="middle">برنج مارکت</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>شما در خانه هستید</h3>
-  <!-- <button ion-button secondary menuToggle>Toggle Menu</button> -->
+<ion-content class="backgroundMain" padding>
+  <ion-list >
+    <ion-slides pager="true">
+      <ion-slide style="background-color:crimson;" padding>
+        <h1>Hello</h1>
+      </ion-slide>
+      <ion-slide style="background-color:rgb(184, 77, 69);" padding>
+        <h1>Ahoy</h1>
+      </ion-slide>
+      <ion-slide style="background-color:rgb(219, 59, 19);" padding>
+        <h1>Hallo</h1>
+      </ion-slide>
+    </ion-slides>
+  </ion-list>
+  <ion-list>
+    
+  </ion-list>
+  <ion-list>
+      <p> محصولات پرفروش </p>
+      <ion-slides pager="true" class="borderimgSlide">
+          <ion-slide style="background-color:rgb(36, 122, 19);" padding>
+            <div class="container">
+                <img src="../../assets/imgs/sample01.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">محصول اول</div>
+                </div>
+            </div>
+            <p></p>
+          </ion-slide>
+          <ion-slide style="background-color:rgb(36, 122, 19);" padding>
+            <div class="container">
+              <img src="../../assets/imgs/sample02.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">محصول دوم</div>
+              </div>
+            </div>
+            <p></p>
+          </ion-slide>
+          <ion-slide style="background-color:rgb(36, 122, 19);" padding>
+            <div class="container">
+              <img src="../../assets/imgs/sample02.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">محصول سوم</div>
+                </div>
+            </div>
+            <p></p>
+          </ion-slide>
+        </ion-slides>
+   <!--more content-->
+  </ion-list>
 </ion-content>

@@ -14,7 +14,7 @@ import { SingUpPage } from '../pages/sign_up/sign_up';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = SingUpPage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -25,7 +25,7 @@ export class MyApp {
     
     this.pages = [
       { title: 'خانه', component: HomePage },
-      { title: 'اطلاعات کاربر', component: UserInfo }
+      { title: 'not ready yet', component: UserInfo }
     ];
 
   }
