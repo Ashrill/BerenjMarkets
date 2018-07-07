@@ -4,8 +4,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { UserInfo } from '../pages/user_info/user_info'
-import { LoginPage } from '../pages/login/login'
+import { UserInfo } from '../pages/user_info/user_info';
+import { LoginPage } from '../pages/login/login';
+import { SingUpPage } from '../pages/sign_up/sign_up';
 
 @Component({
   templateUrl: 'app.html'
@@ -13,7 +14,7 @@ import { LoginPage } from '../pages/login/login'
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = LoginPage;
+  rootPage: any = SingUpPage;
 
   pages: Array<{title: string, component: any}>;
 
